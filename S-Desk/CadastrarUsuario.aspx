@@ -71,12 +71,12 @@
 					</div>
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
 						<span class="label-input100">Setor</span>
-						<select class="input100" id="sDepto" runat="server" style="margin-top:10px"/>
+						<select class="input100" id="sDepto" runat="server" style= "height:40px"/>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
 						<span class="label-input100">Grupo</span>
-						<select class="input100" id="sGrupo" runat="server" style="margin-top:10px"/>
+						<select class="input100" id="sGrupo" runat="server" style="height:40px"/>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="container-login100-form-btn m-t-17">

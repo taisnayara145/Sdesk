@@ -85,3 +85,4 @@ C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\System.Memory.dll
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\System.Numerics.Vectors.dll
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\MySql.Data.xml
+C:\Users\Developer\Source\repos\S-Desk\S-Desk\obj\Debug\S-Desk.csprojAssemblyReference.cache
