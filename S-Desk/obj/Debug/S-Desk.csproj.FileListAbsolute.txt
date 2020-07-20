@@ -67,7 +67,6 @@ C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\Newtonsoft.Json.xml
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\Antlr3.Runtime.pdb
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Developer\Source\repos\S-Desk\S-Desk\obj\Debug\S-Desk.csprojAssemblyReference.cache
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\obj\Debug\S-Desk.csproj.CoreCompileInputs.cache
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\obj\Debug\S-Desk.csproj.CopyComplete
 C:\Users\Developer\Source\repos\S-Desk\S-Desk\obj\Debug\S-Desk.dll

@@ -9,12 +9,6 @@ namespace S_Desk
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
-        protected void btCadastrar_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("./CadastrarUsuario.aspx");
-        }
-
         protected void btEntrar_Click(object sender, EventArgs e)
         {
             matricula = txtmat.Value;

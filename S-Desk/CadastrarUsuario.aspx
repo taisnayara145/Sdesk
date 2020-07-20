@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>S-Desk Cadastrar Usuário</title>
+	<title>S-Desk Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -34,39 +35,48 @@
 	
 	<div class="limiter">
 		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<form  runat="server" class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-51">
-					 Dados
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Cadastro de Usuário
 					</span>
+				</div>
 
-					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo obrigatório">
-						<input runat="server" id="txtmat" class="input100" type="text" placeholder="Matricula">
+				<form class="login100-form validate-form" runat="server">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
+						<span class="label-input100">Matrícula</span>
+						<input runat="server" id="txtmat" class="input100" type="text" placeholder="Digite sua matrícula">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo obrigatório">
-						<input runat="server" id="txtnome" class="input100" type="text" placeholder="Nome">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
+						<span class="label-input100">Nome</span>
+						<input runat="server" id="txtnome" class="input100" type="text" placeholder="Digite seu nome">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo obrigatório">
-						<input runat="server" id="txtemail" class="input100" type="text" placeholder="E-mail">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
+						<span class="label-input100">E-mail</span>
+						<input runat="server" id="txtemail" class="input100" type="text" placeholder="Digite seu e-mail">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo obrigatório">
-						<input runat="server" id="txtsenha" class="input100" type="password" name="pass" placeholder="Senha">
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Campo Obrigatório">
+						<span class="label-input100">Senha</span>
+						<input runat="server" id="txtsenha" class="input100" type="password" name="pass" placeholder="Digite sua senha">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-16">
-						<input runat="server" id="txtcargo" class="input100" type="text" placeholder="Cargo">
+					<div class="wrap-input100 validate-input m-b-26">
+						<span class="label-input100">Cargo</span>
+						<input runat="server" id="txtcargo" class="input100" type="text" placeholder="Digite seu cargo">
 						<span class="focus-input100"></span>
 					</div>
-						<div class="wrap-input100 validate-input m-b-16">
-						  <select class="input100" id="sDepto" runat="server"/>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
+						<span class="label-input100">Setor</span>
+						<select class="input100" id="sDepto" runat="server" style="margin-top:10px"/>
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-16">
-						  <select class="input100" id="sGrupo" runat="server"/>
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Campo Obrigatório">
+						<span class="label-input100">Grupo</span>
+						<select class="input100" id="sGrupo" runat="server" style="margin-top:10px"/>
 						<span class="focus-input100"></span>
 					</div>
 					<div class="container-login100-form-btn m-t-17">
@@ -75,8 +85,7 @@
 				</form>
 			</div>
 		</div>
-	</div> 
-	<div id="dropDownSelect1"></div>
+	</div>
 	
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>

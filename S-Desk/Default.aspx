@@ -33,31 +33,35 @@
 	
 	<div class="limiter">
 		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<form  runat="server" class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-51">
-					 Login
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Login
 					</span>
+				</div>
 
-					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo Obrigatório">
-						<input runat="server" id="txtmat" class="input100" type="text" name="username" placeholder="Matricula">
+				<form class="login100-form validate-form" runat="server">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+						<span class="label-input100">Matrícula</span>
+						<input runat="server" id="txtmat" class="input100" type="text" placeholder="Digite sua matrícula">
 						<span class="focus-input100"></span>
 					</div>
-					
-					
-					<div class="wrap-input100 validate-input m-b-16" data-validate = "Campo Obrigatório">
-						<input runat="server" id="txtsenha" class="input100" type="password" name="pass" placeholder="Senha">
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Senha</span>
+						<input runat="server" id="txtsenha" class="input100" type="password" name="pass" placeholder="Digite sua senha">
 						<span class="focus-input100"></span>
 					</div>
-					
-					<div class="flex-sb-m w-full p-t-3 p-b-24">
+
+					<div class="flex-sb-m w-full p-b-30">
+
 						<div>
 							<a href="/CadastrarUsuario.aspx" class="txt1" style="margin-left:105px">
 								Ainda não tem conta? Cadastre-se aqui!
 							</a>
 						</div>
 					</div>
+
 					<div class="container-login100-form-btn m-t-17">
 						<asp:Button runat="server" Text="Entrar" class="login100-form-btn" ID="btEntrar" OnClick="btEntrar_Click"/>
 					</div>
@@ -65,7 +69,6 @@
 			</div>
 		</div>
 	</div>
-	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
